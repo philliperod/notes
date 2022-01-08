@@ -13,23 +13,23 @@
 
 #### Percentages on the child
 
-![Image 1.0](../dayOne_1.png)
+![Image 1.0](../images/dayOne_1.png)
 
-![Image 1.1](../dayOne_2.png)
+![Image 1.1](../images/dayOne_2.png)
 
 1. To show how a fixed `width` affects a child element compared to its parent, you will see that child can overflow the parent element and viewport size or screen size which causes side scrolling.
 2. A possible counter to this issue - using `overflow: hidden`.
    1. **Consequences - you will also hide the content of the child**.
 
-![Image 1.2](../dayOne_3.png)
+![Image 1.2](../images/dayOne_3.png)
 
 3. Setting the `width` of the child to prevent overflowing to the side, you can cause an overflow to the bottom. (_Another example of setting a fixed width that can cause issues with responsiveness_)
 
-![Image 1.3](../dayOne_4.png)
+![Image 1.3](../images/dayOne_4.png)
 
 4. **Remember**: percentage in `width` for the child means a percentage of the parent's size
 
-![Image 1.4](../dayOne_5.png)
+![Image 1.4](../images/dayOne_5.png)
 
 `.child { width: 50%; // means 50% of the parent element; refer to the above image }`
 
@@ -47,14 +47,14 @@ _There are times when you want to use `height`, but for the most part, they caus
 <br/>
 
 You can see the content of the element will overflow, but will be hidden due to its parent element.
-![Image 2.0](../dayOne_6.png)
+![Image 2.0](../images/dayOne_6.png)
 
 Let the content of the element defined the `height`. It will be responsive by default. It will automatically adapt to the `height` of the element it is working in.
-![Image 2.1](../dayOne_7.png)
+![Image 2.1](../images/dayOne_7.png)
 
 So what if you want more background? Well, you can set `padding`. `padding` **_will give you more background for the element_**.
 
-![Image 2.2](../dayOne_8.png)
+![Image 2.2](../images/dayOne_8.png)
 <br/>
 <br/>
 
@@ -65,7 +65,7 @@ So what if you want more background? Well, you can set `padding`. `padding` **_w
 1. `1em = 16px`
 2. if you set an element to `em`, it will set its sizing in relation to its parent.
 
-![Image 3.0](../dayOne_9.png)
+![Image 3.0](../images/dayOne_9.png)
 
 3. so if the parent element has `em` value for its sizing, its child will be compounding its value when using `em` as well.
    - for example:
@@ -80,8 +80,8 @@ So what if you want more background? Well, you can set `padding`. `padding` **_w
 }
 ```
 
-![Image 3.1](../dayOne_10.png)
-![Image 3.2](../dayOne_11.png)
+![Image 3.1](../images/dayOne_10.png)
+![Image 3.2](../images/dayOne_11.png)
 <br/>
 
 `rem`:
@@ -104,8 +104,8 @@ html {
    - `margin: 1em` will look at `font-size: 1em` in the same element
 7. `rem` will look at the root `html` font size and compound its value
 
-![Image 3.3](../dayOne_12.png)
-![Image 3.4](../dayOne_13.png)
+![Image 3.3](../images/dayOne_12.png)
+![Image 3.4](../images/dayOne_13.png)
 
 8. `em` is great to use for `btn`
 9. `rem` can be great for `margin` as it keeps it consistent with its spacing

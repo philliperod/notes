@@ -18,7 +18,7 @@ It can stretch out the content of the `element` when reaching a wide `viewport`.
 }
 ```
 
-![Image 1.0](../dayTwo_16.png)
+![Image 1.0](../images/dayTwo_16.png)
 <br/>
 
 Now, if you set a `max-width` for the `element`, then it will understand that the `width` of the `container` will always be `80%` of the `viewport` as long as it is `750px` and below.container
@@ -32,4 +32,4 @@ Now, if you set a `max-width` for the `element`, then it will understand that th
 }
 ```
 
-![Image 1.1](../dayTwo_17.png)
+![Image 1.1](../images/dayTwo_17.png)
