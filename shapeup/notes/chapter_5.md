@@ -36,3 +36,27 @@ Next, you should question the viability of each part you think you solved.
 - Is there a hard decision you should settle in advance so it doesn't trip up the exam?
 
 ---
+
+#### Case Study: Patching A Hole
+
+Using the same example again with introducing the dividers in the to-do list:
+
+![Image 2.0](../images/ch5_4.png)
+
+One thing that wasn't addressed was how to display completed items. In the pre-existing design, the latest few completed items displayed below the list. Questions to ask:
+
+- Should we now render completed items at the bottom of each group instead of the list?
+- Should we continue to show completed items at the bottom, and repeat the same set of dividers within the completed items section?
+- Should we reconsider how we handle completed items entirely?
+
+This is a hole in the concept. If you don't address it then you will push a deep design problem down to your team and ask them to find a solution under a deadline.
+
+**_It's not responsible to give your team a tangled knot of interdependencies and then ask them to untangle it within a short fixed time window._**
+
+Complicated problems can affect the user experience, navigation, and performance. To remove uncertainty in a project, dictate a solution in the shaped concept.
+
+For this example, you would leave the completed items exactly as they worked previously. Instead of grouping them, you would just append the name of the group to each completed item. This tradeoff simplified the problem by still showing the completed items from a group on the group's detail page.
+
+![Image 2.1](../images/ch5_5.png)
+
+This kind of trade-off would have been much more difficult under a time constraint. There are lots of reasons why a different design or a deeper reconsideration of completed to-dos would be objectively better. Why not try rendering them inside each group? A designer could reasonably think that if they experiment with the styling more than they can make it blend better. Now, they have wasted a few days in the sprint going down a dead end.
