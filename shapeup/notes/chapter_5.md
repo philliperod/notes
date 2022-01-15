@@ -63,3 +63,9 @@ This kind of trade-off would have been much more difficult under a time constrai
 
 As shapers, you should think less about the ultimate design and more about basic quality and risk. With a compromised concept, you get to keep all the elements that made the project worth doing and cut off a big risk.
 <br/>
+
+#### Declare Out Of Bounds
+
+As the team goes through scope hammering, this will improve their work when looking for all use cases to cover and what deems to be necessary. But it's still a good idea to call out any cases you aren't supporting to keep the projct well within the timeframe.
+
+This is in a case you may have a different idea that might solve a certain case of where this kind of behavior might make sense. Deciding on the purpose of the project with its core value will help narrow down your focus to center on the initial purpose. You can explicitly mark off the idea as "out of bounds" for the project and focus on the win you want.
