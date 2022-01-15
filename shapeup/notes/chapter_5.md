@@ -69,3 +69,25 @@ As shapers, you should think less about the ultimate design and more about basic
 As the team goes through scope hammering, this will improve their work when looking for all use cases to cover and what deems to be necessary. But it's still a good idea to call out any cases you aren't supporting to keep the projct well within the timeframe.
 
 This is in a case you may have a different idea that might solve a certain case of where this kind of behavior might make sense. Deciding on the purpose of the project with its core value will help narrow down your focus to center on the initial purpose. You can explicitly mark off the idea as "out of bounds" for the project and focus on the win you want.
+<br/>
+
+#### Cut Back
+
+There may be parts of the solution that may be unnecessary and you want to flag it and cut it from the core of the project. You can have it as a nice-to-have item, but you should start from the assumption that the feature is valuable without it.
+<br/>
+
+#### Present To Technical Experts
+
+Up to this point shaping has been a closed door activity. Before you write up the idea to share, you might need some input on parts of the concept you aren't sure about. Maybe a technical assumption that you need to verify with someone who understands the code, or making sure the data usage doesn't contradict your assumption about current customer behavior.
+
+Speak with technical experts and walk them through the idea. Communicate that this is just an idea and something you're shaping as a potential project.
+
+> Here's something I'm thinking about... but I'm not ready to show anybody yet... what do you think?
+
+Beware the simple question:
+
+> Is this possible?
+
+In software, everything is possible but nothing is free. You want to find out if it's possible to fit within a sprint you're shaping for. Instead of asking "is it possible to do X?", ask "is X possible in 4/6 weeks?" Two different questions.
+
+Talk through the constraints of how this is a good solution given the appetite so they can keep the project within the intended size. And you want to emphasize that you're looking for risks that could blow up the project. This is not a "what do you think" conversation - you really want to hunt for time bombs that may blow up your project once it's been commited to a team.
