@@ -65,9 +65,14 @@ So what if you want more background? Well, you can set `padding`. `padding` **_w
 1. `1em = 16px`
 2. if you set an element to `em`, it will set its sizing in relation to its parent.
 
+_Additional Note_:
+
+- a relative measurement which refers to the multiplication of the default font size
+- think of it as **EMphasize**
+
 ![Image 3.0](../images/dayOne_9.png)
 
-3. so if the parent element has `em` value for its sizing, its child will be compounding its value when using `em` as well.
+1. so if the parent element has `em` value for its sizing, its child will be compounding its value when using `em` as well.
    - for example:
 
 ```
