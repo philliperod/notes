@@ -60,3 +60,6 @@ For this example, you would leave the completed items exactly as they worked pre
 ![Image 2.1](../images/ch5_5.png)
 
 This kind of trade-off would have been much more difficult under a time constraint. There are lots of reasons why a different design or a deeper reconsideration of completed to-dos would be objectively better. Why not try rendering them inside each group? A designer could reasonably think that if they experiment with the styling more than they can make it blend better. Now, they have wasted a few days in the sprint going down a dead end.
+
+As shapers, you should think less about the ultimate design and more about basic quality and risk. With a compromised concept, you get to keep all the elements that made the project worth doing and cut off a big risk.
+<br/>
