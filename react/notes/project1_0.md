@@ -1,5 +1,7 @@
 ### First React Project
 
+> Project `info_1` contains the coding for this note
+
 ![Image 1.0](../images/info_1.png)
 
 Adding these React `<script>` allows the dev to start using the React library for their project via CDN.
