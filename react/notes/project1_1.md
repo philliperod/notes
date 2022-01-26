@@ -23,4 +23,8 @@ Each component (think of it as a function) will contain code that serves a purpo
 > "How should it be done?
 > Describe to me every step on how to do something, and I'll do it.
 
-Javascript is an example of imperative code where you must give instructions for each step to accomplish a function.
+Javascript is an example of imperative code where you must give instructions for each step to accomplish a function. Example below:
+
+![](../images/info_7.png)
+
+For React, you're essentially writing your javascript as if it was `html`.
