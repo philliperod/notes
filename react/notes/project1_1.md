@@ -28,3 +28,5 @@ Javascript is an example of imperative code where you must give instructions for
 ![](../images/info_7.png)
 
 For React, you're essentially writing your javascript as if it was `html`. You're relying on React to figure out how to turn what was declaratively written into javascript code that is needed to `append` it to the DOM.
+
+![](../images/info_9.png)
