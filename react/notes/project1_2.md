@@ -19,3 +19,7 @@ With `JSX`, you need to make sure you are only returning a single parent element
 For the example above, you will need to wrap the sibling elements into a parent element.
 
 ![](../images/info_14.png)
+
+You can create a new variable and assign it with `JSX` coding and pass the variable in the `ReactDOM.render`.
+
+![](../images/info_15.png)
