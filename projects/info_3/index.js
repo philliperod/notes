@@ -5,8 +5,7 @@
 
 const element = (
   <div>
-    <h1 className='header'>This is React</h1>
-    <p>We're using JSX</p>
+    <h1 className='header'>This is React</h1>`<p>We're using JSX</p>
   </div>
 );
 
