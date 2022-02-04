@@ -2544,8 +2544,7 @@ to our div#root using .append() instead of ReactDOM
  */
 var sample = /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("h3", null, "Scrimba Header"), /*#__PURE__*/_react.default.createElement("p", null, "This is going to be cool to learn React by doing more than watching videos."), /*#__PURE__*/_react.default.createElement("p", null, "I think that is what I am missing plus he makes you try to figure it out on your own prior to giving you directions on what to do."));
 
-var root = document.getElementById('root');
-root.append(sample);
+document.getElementById('root').append(sample);
 /*
 Guess what will happen prior to running this code.
 
@@ -2556,6 +2555,9 @@ That I'm not too sure, but I am about to find out.
 Ran live server and nothing showed up.
 npm run start - this opened and on the page it says [object Object]
 Now, I'm curious to know why it shows that. Is this because ReactDOM is missing and JSX is essentially an object?
+
+Redoing the code I did because he did not create another variable and assign it a value of document.getElementById('root).
+Remove the variable and use the assigned value instead then append to it. Now it will be a single line of code.
 */
 },{"react":"node_modules/react/index.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -2585,7 +2587,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58191" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58504" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
