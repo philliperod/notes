@@ -144,3 +144,21 @@ Hints:
 * You can also set the `width` attribute of the image element
   just like in HTML. In the slide, I have it set to 40px
  */
+
+const markup = (
+  <div>
+    <header>
+      <img src='../Notes/projects/info_4/index.js' alt='mac' />
+      <h1>Fun facts about React</h1>
+    </header>
+    <ul>
+      <li>Was first released in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Has well over 100k stars on Github</li>
+      <li>Is maintained by Facebook</li>
+      <li>Power thousands of enterprise apps, including mobile apps</li>
+    </ul>
+  </div>
+);
+
+ReactDOM.render(markup, document.getElementById('root'));

@@ -29575,6 +29575,8 @@ var _reactDom = _interopRequireDefault(require("react-dom"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// This will include all challenges and the end project
+
 /*
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -29679,14 +29681,51 @@ document.getElementById('root').append(JSON.stringify(sample));
 */
 
 /*
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 Challenge: fix our code!
 
 Don't forget, you're not using CDNs anymore, so there's no
 global "ReactDOM" variable to use anymore.
- */
-var sample = /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("h3", null, "Scrimba Header"), /*#__PURE__*/_react.default.createElement("p", null, "This is going to be cool to learn React by doing more than watching videos."), /*#__PURE__*/_react.default.createElement("p", null, "I think that is what I am missing plus he makes you try to figure it out on your own prior to giving you directions on what to do."));
 
-_reactDom.default.render(sample, document.getElementById('root'));
+
+const sample = (
+  <main>
+    <h3>Scrimba Header</h3>
+    <p>
+      This is going to be cool to learn React by doing more than watching videos.
+    </p>
+    <p>
+      I think that is what I am missing plus he makes you try to figure it out on
+      your own prior to giving you directions on what to do.
+    </p>
+  </main>
+);
+
+ReactDOM.render(sample, document.getElementById('root'));
+*/
+
+/*
+Challenge: Starting from scratch, build and render the 
+HTML for our section project. Check the Google slide for 
+what you're trying to build.
+
+We'll be adding styling to it later.
+
+Hints:
+* The React logo is a file in the project tree, so you can
+  access it by using `src="./react-logo.png" in your image
+  element
+* You can also set the `width` attribute of the image element
+  just like in HTML. In the slide, I have it set to 40px
+ */
+var markup = /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("img", {
+  src: "../Notes/projects/info_4/index.js",
+  alt: "mac"
+}), /*#__PURE__*/_react.default.createElement("h1", null, "Fun facts about React")), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Was first released in 2013"), /*#__PURE__*/_react.default.createElement("li", null, "Was originally created by Jordan Walke"), /*#__PURE__*/_react.default.createElement("li", null, "Has well over 100k stars on Github"), /*#__PURE__*/_react.default.createElement("li", null, "Is maintained by Facebook"), /*#__PURE__*/_react.default.createElement("li", null, "Power thousands of enterprise apps, including mobile apps")));
+
+_reactDom.default.render(markup, document.getElementById('root'));
 },{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -29715,7 +29754,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58995" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61796" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
