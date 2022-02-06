@@ -128,9 +128,10 @@ const sample = (
 ReactDOM.render(sample, document.getElementById('root'));
 */
 
+/*
 import React from 'react';
 import ReactDOM from 'react-dom';
-/*
+
 Challenge: Starting from scratch, build and render the 
 HTML for our section project. Check the Google slide for 
 what you're trying to build.
@@ -143,7 +144,7 @@ Hints:
   element
 * You can also set the `width` attribute of the image element
   just like in HTML. In the slide, I have it set to 40px
- */
+ 
 
 const markup = (
   <div>
@@ -162,3 +163,29 @@ const markup = (
 );
 
 ReactDOM.render(markup, document.getElementById('root'));
+*/
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+function Reason() {
+  return (
+    <div>
+      <h2>Reasons Why I Like React</h2>
+      <ul>
+        <li>Hireable skills</li>
+        <li>Pretty fun code to learn, honestly</li>
+        <li>
+          Somehow it's easier to learn? Or maybe the code makes more sense when
+          reading
+        </li>
+        <li>Its performance is awesome when interacting with it</li>
+        <li>
+          I'm trying to build something work related to see if I can do it on my own
+        </li>
+      </ul>
+    </div>
+  );
+}
+
+ReactDOM.render(<Reason />, document.getElementById('root'));

@@ -29707,6 +29707,9 @@ ReactDOM.render(sample, document.getElementById('root'));
 */
 
 /*
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 Challenge: Starting from scratch, build and render the 
 HTML for our section project. Check the Google slide for 
 what you're trying to build.
@@ -29719,13 +29722,31 @@ Hints:
   element
 * You can also set the `width` attribute of the image element
   just like in HTML. In the slide, I have it set to 40px
- */
-var markup = /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("img", {
-  src: "../Notes/projects/info_4/index.js",
-  alt: "mac"
-}), /*#__PURE__*/_react.default.createElement("h1", null, "Fun facts about React")), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Was first released in 2013"), /*#__PURE__*/_react.default.createElement("li", null, "Was originally created by Jordan Walke"), /*#__PURE__*/_react.default.createElement("li", null, "Has well over 100k stars on Github"), /*#__PURE__*/_react.default.createElement("li", null, "Is maintained by Facebook"), /*#__PURE__*/_react.default.createElement("li", null, "Power thousands of enterprise apps, including mobile apps")));
+ 
 
-_reactDom.default.render(markup, document.getElementById('root'));
+const markup = (
+  <div>
+    <header>
+      <img src='../Notes/projects/info_4/index.js' alt='mac' />
+      <h1>Fun facts about React</h1>
+    </header>
+    <ul>
+      <li>Was first released in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Has well over 100k stars on Github</li>
+      <li>Is maintained by Facebook</li>
+      <li>Power thousands of enterprise apps, including mobile apps</li>
+    </ul>
+  </div>
+);
+
+ReactDOM.render(markup, document.getElementById('root'));
+*/
+function Reason() {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", null, "Reasons Why I Like React"), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Hireable skills"), /*#__PURE__*/_react.default.createElement("li", null, "Pretty fun code to learn, honestly"), /*#__PURE__*/_react.default.createElement("li", null, "Somehow it's easier to learn? Or maybe the code makes more sense when reading"), /*#__PURE__*/_react.default.createElement("li", null, "Its performance is awesome when interacting with it"), /*#__PURE__*/_react.default.createElement("li", null, "I'm trying to build something work related to see if I can do it on my own")));
+}
+
+_reactDom.default.render( /*#__PURE__*/_react.default.createElement(Reason, null), document.getElementById('root'));
 },{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -29754,7 +29775,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61796" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63151" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
