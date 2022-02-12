@@ -250,15 +250,14 @@ function Reason() {
 ReactDOM.render(<Reason />, document.getElementById('root'));
 */
 
+/*
 import React from 'react';
 import ReactDOM from 'react-dom';
 import logo from './images/macbook.png';
 
-/**
 Mini Challenge:
 Move the `header` element from Page into 
 its own component called "Header"
-*/
 
 function Header() {
   return (
@@ -290,6 +289,70 @@ function Reason() {
       <footer>
         <p>© 2022 Rodriguez development. All rights reserved.</p>
       </footer>
+    </div>
+  );
+}
+
+ReactDOM.render(<Reason />, document.getElementById('root'));
+*/
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import logo from './images/macbook.png';
+
+/**
+Challenge: 
+
+- Move the `footer` into its own component called "Footer" 
+  and render that component inside the Page component.
+- Move the `h1` and `ol` together into another component
+  called "MainContent" and render inside Page as well.
+*/
+
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src={logo} alt='' />
+      </nav>
+    </header>
+  );
+}
+
+function MainContent() {
+  return (
+    <div>
+      <h2>Reasons Why I Like React</h2>
+      <ol>
+        <li>Hireable skills</li>
+        <li>Pretty fun code to learn, honestly</li>
+        <li>
+          Somehow it's easier to learn? Or maybe the code makes more sense when
+          reading
+        </li>
+        <li>Its performance is awesome when interacting with it</li>
+        <li>
+          I'm trying to build something work related to see if I can do it on my own
+        </li>
+      </ol>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <footer>
+      <p>© 2022 Rodriguez development. All rights reserved.</p>
+    </footer>
+  );
+}
+
+function Reason() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }

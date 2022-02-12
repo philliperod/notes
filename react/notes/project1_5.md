@@ -1,6 +1,6 @@
 ### Custom Components Cont...
 
-Quiz!
+#### Quiz!
 
 1. What is a React component?
    A reusable function that returns React elements.
@@ -31,3 +31,17 @@ function Header() {
 
 ReactDOM.render(Header(), document.getElementById("root"))
 ```
+
+---
+
+#### Parent/Child Component
+
+![](../images/info_21.png)
+
+The `ReactDOM.render` is creating an instance of the `<Page />` component. The `<Page />` is creating an instance of the `<Header />` in its component as if it is an `HTML` element amongst the rest of the code.
+
+This shows the concept of composibility in practice.
+
+Below example shows more of a parent/children component relationship.
+
+![](../images/info_22.png)
