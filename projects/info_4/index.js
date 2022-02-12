@@ -242,6 +242,9 @@ function Reason() {
           I'm trying to build something work related to see if I can do it on my own
         </li>
       </ol>
+      <footer>
+        <p>© 2022 Rodriguez development. All rights reserved.</p>
+      </footer>
     </div>
   );
 }

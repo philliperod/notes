@@ -5,9 +5,14 @@ body {
 }
 
 nav {
-  height: 250px;
+  height: 200px;
+  padding-bottom: 5px;
 }
 
 img {
-  width: 20%;
+  width: 15%;
+}
+
+footer {
+  font-size: small;
 }
