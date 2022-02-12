@@ -397,8 +397,8 @@ function Header() {
 
 function MainContent() {
   return (
-    <div>
-      <h2>Reasons Why I Like React</h2>
+    <div className='main'>
+      <h1>Reasons Why I Like React</h1>
       <ol>
         <li>Hireable skills</li>
         <li>Pretty fun code to learn, honestly</li>
@@ -417,7 +417,7 @@ function MainContent() {
 
 function Footer() {
   return (
-    <footer>
+    <footer className='footer'>
       <p>© 2022 Rodriguez development. All rights reserved.</p>
     </footer>
   );
