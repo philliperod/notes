@@ -9,7 +9,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 5px 3px lightgray;
+  box-shadow: 0 5px 8px lightgray;
 }
 
 .logo {
@@ -22,12 +22,20 @@ body {
 }
 
 .nav-items > li {
-  margin: 0 10px;
+  margin: auto 1.5rem;
+  /* padding: 5px; */
+  /* background-color: lightgray; */
+  transition: background-size 0.2s;
+}
+
+.nav-items > li:hover {
+  box-shadow: 0 2px 0 lightgray;
 }
 
 .main {
   width: 50%;
   margin: 0 auto;
+  padding-top: 1rem;
 }
 
 .footer {
