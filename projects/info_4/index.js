@@ -201,12 +201,11 @@ function Reason() {
 
 ReactDOM.render(<Reason />, document.getElementById('root'));
 */
-
+/*
 import React from 'react';
 import ReactDOM from 'react-dom';
 import logo from './images/macbook.png';
 
-/**
 Challenge: 
 
 Part 2: 
@@ -219,7 +218,6 @@ Part 2:
 - Add a `footer` after the list that says: 
     "© 20xx <last name here> development. All rights reserved."
 
- */
 
 function Reason() {
   return (
@@ -229,6 +227,53 @@ function Reason() {
           <img src={logo} alt='' />
         </nav>
       </header>
+      <h2>Reasons Why I Like React</h2>
+      <ol>
+        <li>Hireable skills</li>
+        <li>Pretty fun code to learn, honestly</li>
+        <li>
+          Somehow it's easier to learn? Or maybe the code makes more sense when
+          reading
+        </li>
+        <li>Its performance is awesome when interacting with it</li>
+        <li>
+          I'm trying to build something work related to see if I can do it on my own
+        </li>
+      </ol>
+      <footer>
+        <p>© 2022 Rodriguez development. All rights reserved.</p>
+      </footer>
+    </div>
+  );
+}
+
+ReactDOM.render(<Reason />, document.getElementById('root'));
+*/
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import logo from './images/macbook.png';
+
+/**
+Mini Challenge:
+Move the `header` element from Page into 
+its own component called "Header"
+*/
+
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src={logo} alt='' />
+      </nav>
+    </header>
+  );
+}
+
+function Reason() {
+  return (
+    <div>
+      <Header />
       <h2>Reasons Why I Like React</h2>
       <ol>
         <li>Hireable skills</li>

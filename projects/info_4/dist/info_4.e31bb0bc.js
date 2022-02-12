@@ -29784,7 +29784,11 @@ function Reason() {
 ReactDOM.render(<Reason />, document.getElementById('root'));
 */
 
-/**
+/*
+import React from 'react';
+import ReactDOM from 'react-dom';
+import logo from './images/macbook.png';
+
 Challenge: 
 
 Part 2: 
@@ -29797,12 +29801,52 @@ Part 2:
 - Add a `footer` after the list that says: 
     "© 20xx <last name here> development. All rights reserved."
 
- */
+
 function Reason() {
-  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("nav", null, /*#__PURE__*/_react.default.createElement("img", {
+  return (
+    <div>
+      <header>
+        <nav>
+          <img src={logo} alt='' />
+        </nav>
+      </header>
+      <h2>Reasons Why I Like React</h2>
+      <ol>
+        <li>Hireable skills</li>
+        <li>Pretty fun code to learn, honestly</li>
+        <li>
+          Somehow it's easier to learn? Or maybe the code makes more sense when
+          reading
+        </li>
+        <li>Its performance is awesome when interacting with it</li>
+        <li>
+          I'm trying to build something work related to see if I can do it on my own
+        </li>
+      </ol>
+      <footer>
+        <p>© 2022 Rodriguez development. All rights reserved.</p>
+      </footer>
+    </div>
+  );
+}
+
+ReactDOM.render(<Reason />, document.getElementById('root'));
+*/
+
+/**
+Mini Challenge:
+Move the `header` element from Page into 
+its own component called "Header"
+*/
+function Header() {
+  return /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("nav", null, /*#__PURE__*/_react.default.createElement("img", {
     src: _macbook.default,
     alt: ""
-  }))), /*#__PURE__*/_react.default.createElement("h2", null, "Reasons Why I Like React"), /*#__PURE__*/_react.default.createElement("ol", null, /*#__PURE__*/_react.default.createElement("li", null, "Hireable skills"), /*#__PURE__*/_react.default.createElement("li", null, "Pretty fun code to learn, honestly"), /*#__PURE__*/_react.default.createElement("li", null, "Somehow it's easier to learn? Or maybe the code makes more sense when reading"), /*#__PURE__*/_react.default.createElement("li", null, "Its performance is awesome when interacting with it"), /*#__PURE__*/_react.default.createElement("li", null, "I'm trying to build something work related to see if I can do it on my own")), /*#__PURE__*/_react.default.createElement("footer", null, /*#__PURE__*/_react.default.createElement("p", null, "\xA9 2022 Rodriguez development. All rights reserved.")));
+  })));
+}
+
+function Reason() {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(Header, null), /*#__PURE__*/_react.default.createElement("h2", null, "Reasons Why I Like React"), /*#__PURE__*/_react.default.createElement("ol", null, /*#__PURE__*/_react.default.createElement("li", null, "Hireable skills"), /*#__PURE__*/_react.default.createElement("li", null, "Pretty fun code to learn, honestly"), /*#__PURE__*/_react.default.createElement("li", null, "Somehow it's easier to learn? Or maybe the code makes more sense when reading"), /*#__PURE__*/_react.default.createElement("li", null, "Its performance is awesome when interacting with it"), /*#__PURE__*/_react.default.createElement("li", null, "I'm trying to build something work related to see if I can do it on my own")), /*#__PURE__*/_react.default.createElement("footer", null, /*#__PURE__*/_react.default.createElement("p", null, "\xA9 2022 Rodriguez development. All rights reserved.")));
 }
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(Reason, null), document.getElementById('root'));
@@ -29834,7 +29878,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63718" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64715" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
