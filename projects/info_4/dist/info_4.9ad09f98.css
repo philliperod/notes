@@ -4,8 +4,22 @@ body {
   padding: 10px;
 }
 
+nav {
+  display: flex;
+}
+
 img {
   width: 60px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  margin: 0 10px;
 }
 
 footer {
