@@ -29950,10 +29950,15 @@ Challenge:
   the following `li`s: "Pricing", "About", & "Contact"
 */
 function Header() {
-  return /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("nav", null, /*#__PURE__*/_react.default.createElement("img", {
+  return /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("nav", {
+    className: "navbar"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "logo",
     src: _macbook.default,
     alt: ""
-  }), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Pricing"), /*#__PURE__*/_react.default.createElement("li", null, "About"), /*#__PURE__*/_react.default.createElement("li", null, "Contact"))));
+  }), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "nav-items"
+  }, /*#__PURE__*/_react.default.createElement("li", null, "Pricing"), /*#__PURE__*/_react.default.createElement("li", null, "About"), /*#__PURE__*/_react.default.createElement("li", null, "Contact"))));
 }
 
 function MainContent() {
@@ -29997,7 +30002,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65338" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49202" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -4,18 +4,18 @@ body {
   padding: 10px;
 }
 
-nav {
+.navbar {
   display: flex;
 }
 
-img {
+.logo {
   width: 60px;
 }
 
-ul {
+.nav-items {
   display: flex;
-  justify-content: space-between;
-  list-style-type: none;
+  /* justify-content: flex-end; */
+  list-style: none;
 }
 
 li {

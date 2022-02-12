@@ -45,3 +45,9 @@ This shows the concept of composibility in practice.
 Below example shows more of a parent/children component relationship.
 
 ![](../images/info_22.png)
+
+#### Styling with Classes
+
+![](../images/info_23.png)
+
+You have to remember that JSX is taking these elements and creating them as native `DOM` elements.
