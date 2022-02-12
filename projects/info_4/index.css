@@ -4,6 +4,10 @@ body {
   padding: 10px;
 }
 
+nav {
+  height: 250px;
+}
+
 img {
   width: 20%;
 }

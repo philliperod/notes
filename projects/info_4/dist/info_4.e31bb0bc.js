@@ -29566,12 +29566,16 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"index.js":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"images/macbook.png":[function(require,module,exports) {
+module.exports = "/macbook.456168a7.png";
+},{}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
 
 var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _macbook = _interopRequireDefault(require("./images/macbook.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29742,12 +29746,67 @@ const markup = (
 
 ReactDOM.render(markup, document.getElementById('root'));
 */
+
+/*
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+Challenge: 
+
+Part 1: Create a page of your own using a custom Page component
+
+It should return an ordered list with the reasons why you're
+excited to be learning React :)
+
+Render your list to the page
+
+
 function Reason() {
-  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", null, "Reasons Why I Like React"), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, "Hireable skills"), /*#__PURE__*/_react.default.createElement("li", null, "Pretty fun code to learn, honestly"), /*#__PURE__*/_react.default.createElement("li", null, "Somehow it's easier to learn? Or maybe the code makes more sense when reading"), /*#__PURE__*/_react.default.createElement("li", null, "Its performance is awesome when interacting with it"), /*#__PURE__*/_react.default.createElement("li", null, "I'm trying to build something work related to see if I can do it on my own")));
+  return (
+    <div>
+      <h2>Reasons Why I Like React</h2>
+      <ul>
+        <li>Hireable skills</li>
+        <li>Pretty fun code to learn, honestly</li>
+        <li>
+          Somehow it's easier to learn? Or maybe the code makes more sense when
+          reading
+        </li>
+        <li>Its performance is awesome when interacting with it</li>
+        <li>
+          I'm trying to build something work related to see if I can do it on my own
+        </li>
+      </ul>
+    </div>
+  );
+}
+
+ReactDOM.render(<Reason />, document.getElementById('root'));
+*/
+
+/**
+Challenge: 
+
+Part 2: 
+- Add a `header` element with a nested `nav` element. Inside the `nav`,
+  include a `img` element with the image of the React logo inside
+  (src="./react-logo.png") and make sure to set the width to something
+  more manageable so it doesn't take up the whole screen
+- Add an `h1` with some text describing the page. (E.g. "Reasons
+  I'm excited to learn React"). Place it above the ordered list.
+- Add a `footer` after the list that says: 
+    "© 20xx <last name here> development. All rights reserved."
+
+ */
+function Reason() {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("nav", null, /*#__PURE__*/_react.default.createElement("img", {
+    src: _macbook.default,
+    alt: ""
+  }))), /*#__PURE__*/_react.default.createElement("h2", null, "Reasons Why I Like React"), /*#__PURE__*/_react.default.createElement("ol", null, /*#__PURE__*/_react.default.createElement("li", null, "Hireable skills"), /*#__PURE__*/_react.default.createElement("li", null, "Pretty fun code to learn, honestly"), /*#__PURE__*/_react.default.createElement("li", null, "Somehow it's easier to learn? Or maybe the code makes more sense when reading"), /*#__PURE__*/_react.default.createElement("li", null, "Its performance is awesome when interacting with it"), /*#__PURE__*/_react.default.createElement("li", null, "I'm trying to build something work related to see if I can do it on my own")));
 }
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(Reason, null), document.getElementById('root'));
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./images/macbook.png":"images/macbook.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -29775,7 +29834,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63151" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63098" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
