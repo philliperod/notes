@@ -29943,20 +29943,86 @@ function Reason() {
 ReactDOM.render(<Reason />, document.getElementById('root'));
 */
 
-/**
+/*
+import React from 'react';
+import ReactDOM from 'react-dom';
+import logo from './images/macbook.png';
+
 Challenge: 
 
 - Add an `ul` inside the Header's `nav` and create
   the following `li`s: "Pricing", "About", & "Contact"
-*/
 
-/**
+
 Second Challenge: 
 
 - Add an `ul` inside the Header's `nav` and create
   the following `li`s: "Pricing", "About", & "Contact"
 - Using flexbox, line up the nav items horizontally, and
   put them inline with the React logo.
+
+
+function Header() {
+  return (
+    <header>
+      <nav className='navbar'>
+        <img className='logo' src={logo} alt='' />
+        <ul className='nav-items'>
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
+
+function MainContent() {
+  return (
+    <div className='main'>
+      <h1>Reasons Why I Like React</h1>
+      <ol>
+        <li>Hireable skills</li>
+        <li>Pretty fun code to learn, honestly</li>
+        <li>
+          Somehow it's easier to learn? Or maybe the code makes more sense when
+          reading
+        </li>
+        <li>Its performance is awesome when interacting with it</li>
+        <li>
+          I'm trying to build something work related to see if I can do it on my own
+        </li>
+      </ol>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className='footer'>
+      <p>© 2022 Rodriguez development. All rights reserved.</p>
+    </footer>
+  );
+}
+
+function Reason() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
+}
+
+ReactDOM.render(<Reason />, document.getElementById('root'));
+*/
+
+/**
+Challenge: 
+
+- Change the image styling to happen in CSS instead of in-line
+  For practice, add a new class to the image in order to style it
 */
 function Header() {
   return /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("nav", {
@@ -30015,7 +30081,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50293" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50579" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
