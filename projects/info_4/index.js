@@ -437,29 +437,15 @@ ReactDOM.render(<Reason />, document.getElementById('root'));
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import logo from './images/macbook.png';
+import Header from './Header';
 
 /**
 Challenge: 
 
-- Change the image styling to happen in CSS instead of in-line
-  For practice, add a new class to the image in order to style it
-*/
+-forgot to duplicate the code and add the new challenge
 
-function Header() {
-  return (
-    <header>
-      <nav className='navbar'>
-        <img className='logo' src={logo} alt='' />
-        <ul className='nav-items'>
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-  );
-}
+- separating the Header component into its own javascript file and importing it onto index.js
+*/
 
 function MainContent() {
   return (
