@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 
 /**
-Challenge: Project setup
+Challenge 1: Project setup
 
 - Create a `components` folder
 - Create the following components in separate files inside
