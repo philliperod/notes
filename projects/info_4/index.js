@@ -464,7 +464,7 @@ function Header() {
 function MainContent() {
   return (
     <div className='main'>
-      <h1>Reasons Why I Like React</h1>
+      <h1 className='title'>Reasons Why I Like React</h1>
       <ol>
         <li>Hireable skills</li>
         <li>Pretty fun code to learn, honestly</li>

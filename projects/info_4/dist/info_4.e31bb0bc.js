@@ -30039,7 +30039,9 @@ function Header() {
 function MainContent() {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "main"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Reasons Why I Like React"), /*#__PURE__*/_react.default.createElement("ol", null, /*#__PURE__*/_react.default.createElement("li", null, "Hireable skills"), /*#__PURE__*/_react.default.createElement("li", null, "Pretty fun code to learn, honestly"), /*#__PURE__*/_react.default.createElement("li", null, "Somehow it's easier to learn? Or maybe the code makes more sense when reading"), /*#__PURE__*/_react.default.createElement("li", null, "Its performance is awesome when interacting with it"), /*#__PURE__*/_react.default.createElement("li", null, "I'm trying to build something work related to see if I can do it on my own")));
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    className: "title"
+  }, "Reasons Why I Like React"), /*#__PURE__*/_react.default.createElement("ol", null, /*#__PURE__*/_react.default.createElement("li", null, "Hireable skills"), /*#__PURE__*/_react.default.createElement("li", null, "Pretty fun code to learn, honestly"), /*#__PURE__*/_react.default.createElement("li", null, "Somehow it's easier to learn? Or maybe the code makes more sense when reading"), /*#__PURE__*/_react.default.createElement("li", null, "Its performance is awesome when interacting with it"), /*#__PURE__*/_react.default.createElement("li", null, "I'm trying to build something work related to see if I can do it on my own")));
 }
 
 function Footer() {
@@ -30081,7 +30083,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49250" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49757" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
