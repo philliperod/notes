@@ -14,22 +14,44 @@ body {
 
 .logo {
   width: 60px;
+  margin-left: 1rem;
+  cursor: pointer;
 }
 
 .nav-items {
-  display: flex;
+  display: inline-block;
   list-style: none;
 }
 
 .nav-items > li {
-  margin: auto 1.5rem;
-  /* padding: 5px; */
-  /* background-color: lightgray; */
-  transition: background-size 0.2s;
+  position: relative;
+  display: inline-block;
+  margin: 15px 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 
-.nav-items > li:hover {
-  box-shadow: 0 2px 0 lightgray;
+.nav-items > li::before {
+  margin-right: 10px;
+  content: '[';
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.nav-items > li:hover::before {
+  opacity: 1;
+}
+
+.nav-items > li::after {
+  margin-left: 10px;
+  content: ']';
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.nav-items > li:hover::after {
+  opacity: 1;
 }
 
 .main {
