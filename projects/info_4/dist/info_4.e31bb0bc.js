@@ -29667,7 +29667,43 @@ function Header() {
     className: "nav-items"
   }, /*#__PURE__*/_react.default.createElement("li", null, "Pricing"), /*#__PURE__*/_react.default.createElement("li", null, "About"), /*#__PURE__*/_react.default.createElement("li", null, "Contact"))));
 }
-},{"react":"node_modules/react/index.js","./images/macbook.png":"images/macbook.png","./index.css":"index.css"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./images/macbook.png":"images/macbook.png","./index.css":"index.css"}],"MainContent.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = MainContent;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function MainContent() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "main"
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    className: "title"
+  }, "Reasons Why I Like React"), /*#__PURE__*/_react.default.createElement("ol", null, /*#__PURE__*/_react.default.createElement("li", null, "Hireable skills"), /*#__PURE__*/_react.default.createElement("li", null, "Pretty fun code to learn, honestly"), /*#__PURE__*/_react.default.createElement("li", null, "Somehow it's easier to learn? Or maybe the code makes more sense when reading"), /*#__PURE__*/_react.default.createElement("li", null, "Its performance is awesome when interacting with it"), /*#__PURE__*/_react.default.createElement("li", null, "I'm trying to build something work related to see if I can do it on my own")));
+}
+},{"react":"node_modules/react/index.js"}],"Footer.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Footer;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Footer() {
+  return /*#__PURE__*/_react.default.createElement("footer", {
+    className: "footer"
+  }, /*#__PURE__*/_react.default.createElement("p", null, "\xA9 2022 Rodriguez development. All rights reserved."));
+}
+},{"react":"node_modules/react/index.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -29675,6 +29711,10 @@ var _react = _interopRequireDefault(require("react"));
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
 var _Header = _interopRequireDefault(require("./Header"));
+
+var _MainContent = _interopRequireDefault(require("./MainContent"));
+
+var _Footer = _interopRequireDefault(require("./Footer"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -30175,26 +30215,12 @@ ReactDOM.render(<Reason />, document.getElementById('root'));
 Challenge: move the Footer and MainContent components
 into their own files.
 */
-function MainContent() {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "main"
-  }, /*#__PURE__*/_react.default.createElement("h1", {
-    className: "title"
-  }, "Reasons Why I Like React"), /*#__PURE__*/_react.default.createElement("ol", null, /*#__PURE__*/_react.default.createElement("li", null, "Hireable skills"), /*#__PURE__*/_react.default.createElement("li", null, "Pretty fun code to learn, honestly"), /*#__PURE__*/_react.default.createElement("li", null, "Somehow it's easier to learn? Or maybe the code makes more sense when reading"), /*#__PURE__*/_react.default.createElement("li", null, "Its performance is awesome when interacting with it"), /*#__PURE__*/_react.default.createElement("li", null, "I'm trying to build something work related to see if I can do it on my own")));
-}
-
-function Footer() {
-  return /*#__PURE__*/_react.default.createElement("footer", {
-    className: "footer"
-  }, /*#__PURE__*/_react.default.createElement("p", null, "\xA9 2022 Rodriguez development. All rights reserved."));
-}
-
 function Reason() {
-  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement(MainContent, null), /*#__PURE__*/_react.default.createElement(Footer, null));
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement(_MainContent.default, null), /*#__PURE__*/_react.default.createElement(_Footer.default, null));
 }
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(Reason, null), document.getElementById('root'));
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./Header":"Header.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./Header":"Header.js","./MainContent":"MainContent.js","./Footer":"Footer.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -30222,7 +30248,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50272" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50515" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

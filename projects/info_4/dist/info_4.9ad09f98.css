@@ -35,7 +35,7 @@ body {
   margin-right: 10px;
   content: '[';
   opacity: 0;
-  transition: opacity 0.2s;
+  transition: opacity 0.3s;
 }
 
 .nav-items > li:hover::before {
@@ -46,7 +46,7 @@ body {
   margin-left: 10px;
   content: ']';
   opacity: 0;
-  transition: opacity 0.2s;
+  transition: opacity 0.3s;
 }
 
 .nav-items > li:hover::after {
