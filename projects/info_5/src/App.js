@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Main from './components/Main';
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import './App.css';
 
 export default function App() {

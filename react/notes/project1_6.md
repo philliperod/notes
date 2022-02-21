@@ -9,3 +9,5 @@ The Webpack series that is running `create-react-app` behind the scenes is using
 ![](../images/info_27.png)
 
 With webpack, using static assets like images and fonts works similarly to CSS. Unlike CSS imports, importing a file give syou a string value. This ensures that when the project is built, webpack will correctly move the images into the build folder, and provide us with correct paths.
+
+---
