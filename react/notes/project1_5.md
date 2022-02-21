@@ -46,8 +46,22 @@ Below example shows more of a parent/children component relationship.
 
 ![](../images/info_22.png)
 
+---
+
 #### Styling with Classes
 
 ![](../images/info_23.png)
 
 You have to remember that JSX is taking these elements and creating them as native `DOM` elements.
+
+---
+
+#### Organize Components
+
+When you create a separate component, in order for the component to be imported to another, you need to use `export default {component name}`.
+
+![](../images/info_24.png)
+
+When importing the component, you use `import {function name} from "./{component name}"` to declare it into the designated component. The `./` means you are importing a file and not a dependency.
+
+![](../images/info_25.png)
