@@ -434,17 +434,67 @@ function Reason() {
 
 ReactDOM.render(<Reason />, document.getElementById('root'));
 */
+/*
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './Header';
+
+
+Challenge: 
+
+-forgot to duplicate the code and add the new challenge
+
+- separating the Header component into its own javascript file and importing it onto index.js
+
+
+function MainContent() {
+  return (
+    <div className='main'>
+      <h1 className='title'>Reasons Why I Like React</h1>
+      <ol>
+        <li>Hireable skills</li>
+        <li>Pretty fun code to learn, honestly</li>
+        <li>
+          Somehow it's easier to learn? Or maybe the code makes more sense when
+          reading
+        </li>
+        <li>Its performance is awesome when interacting with it</li>
+        <li>
+          I'm trying to build something work related to see if I can do it on my own
+        </li>
+      </ol>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className='footer'>
+      <p>© 2022 Rodriguez development. All rights reserved.</p>
+    </footer>
+  );
+}
+
+function Reason() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
+}
+
+ReactDOM.render(<Reason />, document.getElementById('root'));
+*/
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './Header';
 
 /**
-Challenge: 
-
--forgot to duplicate the code and add the new challenge
-
-- separating the Header component into its own javascript file and importing it onto index.js
+Challenge: move the Footer and MainContent components
+into their own files.
 */
 
 function MainContent() {

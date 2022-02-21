@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './images/macbook.png';
 import './index.css';
 
-function Header() {
+export default function Header() {
   return (
     <header>
       <nav className='navbar'>
@@ -16,5 +16,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
