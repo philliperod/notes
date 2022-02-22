@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-/*
-Challenge: Complete the Navbar to match the design
+/**
+Challenge: Build the main section!
 
-Hint: use the Figma file for the most accurate peek at the design
-(colors, sizes, fonts, etc.)
+Skip 2 aspects of the design for now:
+1. The colored bullets in the list
+2. The larger React logo on the side
+
+Those will be separate challenges coming up.
 */
 
 ReactDOM.render(
