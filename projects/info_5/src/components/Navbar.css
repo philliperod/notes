@@ -6,26 +6,28 @@ nav {
   padding: 30px 25px;
 }
 
-img {
+.nav--logo {
   width: 48px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  img {
+  .nav--logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-nav > h3,
-nav > h4 {
+.nav--logo_text,
+.nav--title {
   margin: 0;
 }
 
-nav > h3 {
+.nav--logo_text {
   margin-right: auto;
   color: #61dafb;
+  font-size: 24px;
 }
 
-nav > h4 {
+.nav--title {
   color: #deebf8;
+  font-weight: 600;
 }
