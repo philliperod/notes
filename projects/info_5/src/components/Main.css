@@ -1,6 +1,7 @@
 main {
   padding: 2rem 2.5rem;
   color: #ffffff;
+  background: url('./Group.png') no-repeat right center;
 }
 
 .main--title {
