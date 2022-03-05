@@ -19,3 +19,21 @@ You can construct multiple clauses by joining `AND` or `OR` logical keywords. Be
 Writing clauses to constrain the set of rows returned also benefits performance due to reduction of unncessary data being returned.
 
 ---
+
+![](images/sql_5.png)
+
+---
+
+Answers:
+
+1. `SELECT * FROM movies WHERE id = 6;`
+   ![](images/lesson2answer_1.png)
+   <br/>
+2. `SELECT * FROM movies WHERE year BETWEEN 2000 AND 2010;`
+   ![](images/lesson2answer_2.png)
+   <br/>
+3. `SELECT * FROM movies WHERE year NOT BETWEEN 2000 AND 2010;`
+   ![](images/lesson2answer_3.png)
+   <br/>
+4. `SELECT title, year FROM movies WHERE id <= 5;`
+   ![](images/lesson2answer_4.png)
