@@ -18,3 +18,26 @@ When writing `WHERE` clauses with columns containing text, SQL supports other us
 > All strings must be quoted so that the query parser can distinguish words in the string from SQL keywords
 
 While most database implementations are efficient when using these operators, full-text search is best left to libraries like **_Apache Lucene_** or **_Sphinx_**. They also support a variety of search features including internationalization and advanced queries.
+
+---
+
+![](images/sql_6.png)
+
+---
+
+Answers:
+
+1. `SELECT * FROM movies WHERE title LIKE 'Toy Story%';`
+   ![](images/lesson3answer_1.png)
+   <br/>
+
+2. `SELECT * FROM movies WHERE director = 'John Lasseter';`
+   ![](images/lesson3answer_2.png)
+   <br/>
+
+3. `SELECT * FROM movies WHERE director != 'John Lasseter';`
+   ![](images/lesson3answer_3.png)
+   <br/>
+
+4. `SELECT * FROM movies WHERE title LIKE 'WALL-%';`
+   ![](images/lesson3answer_4.png)
