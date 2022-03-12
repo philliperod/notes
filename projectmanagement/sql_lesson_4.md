@@ -47,5 +47,5 @@ Answers:
    ![](images/lesson4answer_3.png)
    <br/>
 
-4. `SELECT * FROM movies ORDER BY title ASC LIMIT 5 OFFSET 6;`
+4. `SELECT * FROM movies ORDER BY title ASC LIMIT 5 OFFSET 5;`
    ![](images/lesson4answer_4.png)
