@@ -28,9 +28,11 @@ It's a process that matches rows from the first and second table that has the sa
 
 1. `SELECT title, domestic_sales, international_sales FROM movies INNER JOIN boxoffice ON movies.id = boxoffice.movie_id`
    ![](images/lesson5answer_1.png)
+   <br/>
 
 2. `SELECT title, domestic_sales, international_sales FROM movies INNER JOIN boxoffice ON movies.id = boxoffice.movie_id WHERE international_sales > domestic_sales`
    ![](images/lesson5answer_2.png)
+   <br/>
 
 3. `SELECT * FROM movies INNER JOIN boxoffice ON movies.id = box.movie_id ORDER BY rating DESC`
-   ![](images/lesson5answer_3.png)
+   ![](images/lesson5answer_3.png`)
