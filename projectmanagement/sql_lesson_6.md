@@ -1,17 +1,38 @@
-#### SQL Lesson 6: `OUTER JOIN`
+#### SQL Lesson 6: Multi-Table Queries with `JOIN`s
 
 <br/>
 
-`INNER JOIN` is sufficient if the resulting table only contains data that belongs in both tables.
+**_Normalization_**: process organizing data in a database
 
-If the two tables have asymmetric data then you would have to use `LEFT JOIN`, `RIGHT JOIN`, or `FULL JOIN` to ensure your data is not left out in your results.
+_Database normalization_ minimizes duplicate data in any single table and allows for data in the database to grow independently of each other. The trade-off is queries will have to find data in different parts of the database which may come with performance issues.
+<br/>
 
-![](images/sql_13.png)
+##### Multi-table queries
 
-`LEFT JOIN`: when joining table A to table B, it will include rows of table A regardless if there are no matching rows in table B.
+Tables that share information about a single entity need to have a **_PRIMARY KEY_** that identifies that data **UNIQUELY** across the database. A common primary key type is an _auto-incrementing integer_ (space efficient). Other key types are string and hashed value.
 
-`RIGHT JOIN`: when joining table A to table B, it will include rows of table B regardless if there are no matching rows in table A.
+Using `JOIN` clause in a query, it will combine row data across two separate tables.
+<br/>
 
-`FULL JOIN`: this will include all rows from table A and table B regardless rows to match.
+##### USING `INNER JOIN`
 
-![](images/sql_14.png)
+It's a process that matches rows from the first and second table that has the same key (**defined by** `ON` **constraint**) to create a result row with combined columns from both tables.
+
+![](images/sql_11.png)
+
+---
+
+![](images/sql_12.png)
+
+##### Answers
+
+1. `SELECT title, domestic_sales, international_sales FROM movies INNER JOIN boxoffice ON movies.id = boxoffice.movie_id`
+   ![](images/lesson6answer_1.png)
+   <br/>
+
+2. `SELECT title, domestic_sales, international_sales FROM movies INNER JOIN boxoffice ON movies.id = boxoffice.movie_id WHERE international_sales > domestic_sales`
+   ![](images/lesson6answer_2.png)
+   <br/>
+
+3. `SELECT * FROM movies INNER JOIN boxoffice ON movies.id = box.movie_id ORDER BY rating DESC`
+   ![](images/lesson6answer_3.png`)
