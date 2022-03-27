@@ -23,12 +23,23 @@ If the two tables have asymmetric data then you would have to use `LEFT JOIN`, `
 
 ##### Answers
 
-1. `SELECT DISTINCT building_name FROM employees LEFT JOIN buildings ON buildings.building_name = employees.building;`
+1. `SELECT DISTINCT building FROM employees;`
    ![](images/lesson7answer_1.png)
    <br/>
 
-2. `SELECT building_name, capacity FROM buildings;`
+   > My answer which produced the same result; over complicated the answer
+   > `SELECT DISTINCT building_name FROM employees LEFT JOIN buildings ON buildings.building_name = employees.building;`
+
+<br/>
+
+2. `SELECT * FROM building`
    ![](images/lesson7answer_2.png)
    <br/>
 
-3.
+   > My answer is below:
+   > `SELECT building_name, capacity FROM buildings;`
+
+<br/>
+
+3. `SELECT DISTINCT building_name, role FROM buildings LEFT JOIN employees ON building_name = building;`
+   ![](images/lesson7answer_3.png)
