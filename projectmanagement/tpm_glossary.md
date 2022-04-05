@@ -4,6 +4,8 @@
 
 **A/B Test**: a method of comparing two versions of a webpage or app against each other to determine which one performs better. Often, an A/B test will give 50% of users experience “A” and the other 50% experience “B.” Product managers often help choose which variant is better (“A” or “B”) based on metric analysis.
 
+**API (Application Programming Interface)**: A product's API extends the functionality of the product to other parties. For instance, a Facebook API might allow other products (like Venmo) use Facebook log-in to authenticate users.
+
 **Beta Test**: trial phase of the product's launch. Usually scoped to a select group of early adopter users, and the product may still have bugs in it.
 
 **Bounce Rate**: percentage of visitors to a particular website who navigate away from the site after viewing only one page.
@@ -30,6 +32,8 @@
 
 **Low-hanging fruit**: An easy product or feature change that can substantially improve metrics. For instance, adding a button to the homepage for users to purchase a product might be a "low-hanging fruit."
 
+**Mobile Web / Native**: “Native” often refers to apps downloaded to a smartphone or computer. Web apps are those that are accessed via a URL. For instance, the Facebook app is a native app. The Facebook.com on a mobile Google Chrome browser in one’s smartphone is on the mobile web platform.
+
 **MVP (minimum viable product)**. A product that only delivers the core, bare-bones functionality of your final product. An MVP is useful to get an initial sampling of user feedback. For example, Airbnb's MVP might be an editable spreadsheet that hosts and guests can use to match up with each other for vacations.
 
 **North Star Metric**: The single metric that best captures the success of your product. Of course, no metric will tell a full story, but the north star metric is the top, most important metric a product manager would select.
@@ -37,6 +41,8 @@
 **Pain Point**: A pain point is a problem that prospective customers or users are experiencing. Pain point identification is helpful to generate targeted solutions.
 
 **Product Roadmap**: High-level summary of a product's vision and direction over time.
+
+**Refactor**: A restructuring of the existing computer code. There are a variety of reasons for a code refactor. Often, refactors are advantageous because they accelerate product development or reduce vulnerabilities.
 
 **ROI**: return on investment.
 
