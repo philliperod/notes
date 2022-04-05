@@ -108,3 +108,62 @@ There are usually two different variations for onsite:
 ##### Listen & Take Notes
 
 Don’t just listen, **actively listen**. **Jot down notes as you hear the question for keywords or important points**. Make frequent eye contact with the interviewer. **Show interest and excitement** to tackle the question.
+<br/>
+
+##### Ask Clarifying Questions
+
+Before answering the question, ask a question! **Avoid answering the questions immediately at all cost!** No matter how straightforward the question is, ask clarifying questions to understand the question’s important details and your interviewer’s expectations. Sample questions:
+
+- Is this product scoped to a particular set of users?
+- What platforms are our users on?
+- Are we launching internationally or domestically?
+- **Ok, you’re asking me to **\_**. Is that correct?**
+
+**_Tell the interviewer your strategy, your structure, and how you are thinking about the problem and ask if that is ok if you don't have any questions._**
+<br/>
+
+##### Pause & Think
+
+Huge increases in qualities of product management interview answers when the interviewee pauses for even just 10–15 seconds to consider their approach. It may feel like your interviewer expects an immediate answer, but trust me — they’ll appreciate it much more when you have a coherent and cogent response.
+
+Remember, you're not making decisions right on the spot. You're going to take your time, think about the questions, and give a clear response.
+<br/>
+
+##### Structure Your Answer
+
+The simplest structure is a three-point answer. Your intro sentence could be: “**Ok, I’m going to cover three potential products that answer your question, and explain the tradeoffs of each. The three products are **\_**, **\_**, and **\_**.**”
+
+Now, your interview has a sense of your answer’s structure, and can redirect you as needed.
+
+A popular framework to use for PM interviews is **Broader Than Deep** strategy. Now, don't overuse this strategy as it is the most common strategy for PM interviews.
+
+**Broader Than Deep Strategy**: list 4-5 different options and pick the best one and explain why this option is better than the others.
+
+> **_Pro tip: This is a great opportunity to write the structure on the whiteboard as you speak._**
+
+<br/>
+
+##### Explain
+
+Dive into the details of your answer and explain your thought process. Give clear benchmarks and sign posts of where you're going and how you're going there. State that you're done with the first part of your structure and moving to the second part of your structure.
+
+Generally, make sure to sit tall, confidently explain your answer, and make eye contact. **Use the whiteboard liberally — it’s a great visual aid for your answer**.
+<br/>
+
+##### Pivot And Check-In
+
+You may be mid-way through your answer, and something goes wrong. Or you may want to check-in with the interviewer. **You could ask "Am I on the right track?" or "I thought about this, but I'm not going to touch on it unless you would like for me to go into details."** Here are some possible pitfalls and how to pivot out of them:
+
+- **Your interviewer gives concerned body language**: perhaps you’re not on the right track. Pause where appropriate and check in. “Ok, I’ve just answered the first part of my question. I’ll now move on to the next segment of my answer. Is that alright?”
+
+- **You realize your answer is wrong**: you realize your answer is flawed in a fundamental way, and you want to change your answer. Depending on your personal style, figure out a smooth way to pivot mid-answer. For instance, “As I discuss this point, I realize that there are several flaws with my answer. I’d actually like to shift my answer a bit toward….”
+
+- **You forget your point**: if you blank out, don’t worry. Nine times out of ten, you just need a bit more time to think about the answer, so ask for it. “Ok, I’ll need a bit more intermediate time to think through the second part of my question. Please give me a few moments.” If you can’t remember it, gracefully pivot to skip over the missing information.
+
+> Classic mistake: Interviewees set up an awesome structure, but then somehow, the interviewee goes completely off track and the interviewer is lost. Stick to your structure, or communicate your changes clearly if a change is necessary.
+
+<br/>
+
+##### Summarize Your Answer
+
+In no longer than 30 seconds, reiterate what you’ve told your interviewer, using the same structure that you defined in step #4. **“In summary, we’ve discussed \_**\_, \_\_**, and \_\_\_\_.”**
