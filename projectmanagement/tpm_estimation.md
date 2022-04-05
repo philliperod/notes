@@ -89,3 +89,37 @@ Example (cont. from above about the schoolbus): **_we isolate each component of 
 - External accessories (mirrors, lights, etc.)
 
 Now that you've broken down the problem (and the schoolbus), you can estimate the individual weight of each piece.
+
+##### Estimate the number of miles of road in continental US
+
+Already memorized there are 3M square miles of land in the US. The approach will be to estimate the road density for a square mile of the US.
+
+> Given a square mile of the US, how much road is in it?
+
+You can break down this problem into rural and urban square miles as road density will differ between the two.
+
+---
+
+#### 4. Estimate
+
+So far, you have broken the problem, considered exceptions, and explain your approach. Now, the numbers.
+
+> Interviewer do not care what the actual numbers are.
+
+##### Estimate the number of miles of road in the US
+
+Now, you need to calculate the road density of a square mile. Imagine a square mile of the US, and, on average, across cities and rural areas. You can probably guess that there might be 2 miles of road per square mile. Why?
+
+Reasonable to think that there's a road crossing across both the length and height of the square mile. In rural areas, there may be no roads at all, but in cities and small towns, there will be more roads. On average, this could be a fair estimate.
+
+---
+
+#### 5. Answer
+
+After estimating various components, provide your answer. Usually, this requires plugging all our mini-estimates into our larger equation and summing the total.
+
+---
+
+#### 6. Tell Your Interviewer Why You're Wrong
+
+Your answer will be wrong. Tell your interviewer if, based on a quick gut check, you think your answer is an overestimate or underestimate. Explain what factors you would consider if you had more time. What elements did you ignore because you didn't forsee them to factor significantly in the calculation? This helps anticipate your interviewer's qualms with your answer.
