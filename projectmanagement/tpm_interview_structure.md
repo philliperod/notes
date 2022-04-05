@@ -167,3 +167,5 @@ You may be mid-way through your answer, and something goes wrong. Or you may wan
 ##### Summarize Your Answer
 
 In no longer than 30 seconds, reiterate what you’ve told your interviewer, using the same structure that you defined in step #4. **“In summary, we’ve discussed \_**\_, \_\_**, and \_\_\_\_.”**
+
+You could say "There are actually qualitative trade-off here if we go with this product. There's actually something that might occur that gives this result."
