@@ -169,3 +169,41 @@ You may be mid-way through your answer, and something goes wrong. Or you may wan
 In no longer than 30 seconds, reiterate what you’ve told your interviewer, using the same structure that you defined in step #4. **“In summary, we’ve discussed \_**\_, \_\_**, and \_\_\_\_.”**
 
 You could say "There are actually qualitative trade-off here if we go with this product. There's actually something that might occur that gives this result."
+
+---
+
+#### Rubrics to Help Ace PM Interviews
+
+<br>
+
+##### How Hiring Decisions Are Made
+
+Hiring decisions occurs after the final round - typically on-site. Either the recruiter or hiring manager will lead a meeting with a goal of making a decision. Interviewers will take turn sharing feedback and recommendation along a set specturm.
+
+The hiring manager has a bit more influence of the results, but evaluations typically follow a specific rubric.
+<br>
+
+##### Why This Approach?
+
+They allow for consistent process. Standard processes allow companies to adapt quicker.
+
+##### What Interview Rubrics Offer
+
+- they ensure that all candidates are assessed on the same core set of competencies that a company deems critical for a role
+- make it easier for interviewers to step inro the process without tons of extra training or prep time
+- allow for more equitable comparison between candidates and help ensure the group chooses a high quality hire
+
+##### Interview Rubrics
+
+- Estimation
+- Analytical
+- Execution
+- Product Strategy
+- Product Design
+- Technical
+
+##### Using Exponent's PM Interview Rubrics
+
+Rubrics explainers are provided after the core lesson on each interview type. Read through the guidance for each category to get a sense of what to look for when scoring, then watch and score mock videos.abs
+
+Submit your rubric and see how Exponent scored the interview. Read through their notes and overall hiring decision, and make note of any categories where your score and expert score vary differently. Practice your own answer.
