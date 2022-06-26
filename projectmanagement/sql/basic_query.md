@@ -260,7 +260,7 @@ with data as
 select * from data
 
 -- rather than 2 auxiliary statements, create one
--- join main table with two alias
+-- self-join main table with two alias
 -- (reminder) main table columns: user_id, timestamp, action
 -- can't use 'pl.date' and 'pe.date' in JOIN clause since 'timestamp' will be the same column in both tables
 -- will still need to convert 'timestamp' in JOIN clause
