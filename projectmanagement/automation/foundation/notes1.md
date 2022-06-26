@@ -56,3 +56,5 @@ Scenario steps include:
 Automating these steps at the UI level is risky. If any of those steps fail due to brittleness of navigating the UI, the test won't get to the step that you actually care about.
 
 You already added a UI level test to your suite, so you can bypass that in this new scenario. Instead, look for **seams - or shortcuts -** in your app which makes automating easier.
+
+Instead of searching for the product, you can go straight to the product's URL within your automated test. That's the seam and will save a lot fo time and mitigate some of the risk of using the UI by eliminating the steps

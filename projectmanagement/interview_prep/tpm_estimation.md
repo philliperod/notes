@@ -123,3 +123,63 @@ After estimating various components, provide your answer. Usually, this requires
 #### 6. Tell Your Interviewer Why You're Wrong
 
 Your answer will be wrong. Tell your interviewer if, based on a quick gut check, you think your answer is an overestimate or underestimate. Explain what factors you would consider if you had more time. What elements did you ignore because you didn't forsee them to factor significantly in the calculation? This helps anticipate your interviewer's qualms with your answer.
+
+---
+
+### Estimation Questions Strategies and Tricks
+
+Estimation questions are open-ended. It can be hard to explain your process or do quick whiteboard math. Below are some strategies to counteract those problems.
+<br>
+
+#### Estimating the Unknowns
+
+Most estimation questions will ask you to estimate something you have no clue about. For example, "how many cars are there in Seattle?"
+
+##### 1. Estimate via proxy
+
+An excellent method to estimate a number is to figure out another related and known number. Instead of trying to guess how many cars in Seattle, we can hypothesize that the number of cars is directly related to the number of familes in the area. This latter quantity is easier to derive a number for.
+
+Once you have the relative quantity, all you need to do is scale up or down. For example, if we assume there are 300k households in Seattle, it doesn't mean there are 300k cars. Each household may have, on average, 2 cars. So, that means there are 300k \* 2 cars = 600k cars in Seattle.
+
+##### 2. Personal references
+
+In essense, what any method to estimate is trying to do is related some unknown quantity to some known quantity and move from there. One fail-safe option is to relate the unknown quantity to some known quantity in your life. From there, you can adjust your assumptions when necessary.
+
+##### 3. Upper and lower bounds
+
+When all else fails, start with extremes. What's the realistic upper and lower limit of quantity X? You can whittle down these limits through the course of the interview, ending in a much narrower range or concrete number.
+
+For example, the extreme lower limit of cars in Seattle is 0 and the extremem upper limit is probably the population size of Seattle - around 1 million. If you take the average of the two numbers, you get 500k cars in Seattle. The actual number is closer to 430k. But, in the interview, we don't care about the correctness as much as we care about your process. So, whittle down the range with revelant assumptions.
+
+---
+
+#### Math Tricks
+
+You can apply a few simple strategies to turn hard mental math problems into quick and painless whiteboard answers.
+
+##### 1. Rounding Numbers
+
+Estimation questions are looking for ballpark figure and not accurate answers. If you have an inconvenient number, **ROUND IT**. **_Take some number and round it to the some power of 10_**.
+
+> Be sure to communicate to the interviewer that you are rounding the figure. State it out loud.
+>
+> **Examples**:
+> 7.6 billion becomes 8 billion or 10 billion
+> 237 million becomes 200 million
+
+##### 2. Split Your Multiplications
+
+Even after rounding, multiplying big numbers can be hard. Here's an example:
+
+> What is 70 million times 40?
+>
+> 70,000,000 x 40 = (7 x 10,000,000) x (4 x 10) = (7 x 4 x 10,000,000 x 10) = (28 x 100,000,000) = **2.8 billion**
+>
+> What is 15% of 70?
+> 15% of 70 = (10% of 70) + (5% of 70) = (0.1 x 70) + (0.05 x 70) = 7 + (0.5 x 0.1 x 70) = 7 + 3.5 = **10.5**
+
+The trick is to multiply the non-power-of-10 numbers together first, then multiply that result with all powers of 10. Additionally, numbers can be split up into sums that are easier to work with. Lastly, dividing/multiplying by 10 and 2 are the simplest divisions, so try to get your numbers in multiples of those two numbers.
+
+##### 3. Dealing with Power of 10
+
+Remember that multiplying by a power of 10 is moving the decimal place over.
