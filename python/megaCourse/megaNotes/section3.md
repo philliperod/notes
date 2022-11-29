@@ -36,11 +36,15 @@ Python uses **implicit declarations** by using ***built-in types***. These data 
 
 **Numeric**: numbers created by numeric literals.
 
-| Type               | Defined                                | Example      |
-|--------------------|----------------------------------------|--------------|
-| `int(x)`           | integer                                | `x = 3`      |
-| `float(x)`         | integer that contains a decimal number | `x = 4.3`    |
-| `complex(re, im)`  | contains a real and imaginary number   | `x = 2 + 6j` |
+| Type            | Defined                                | Example      |
+|-----------------|----------------------------------------|--------------|
+| `int(x)`        | whole numbers                          | `x = 3`      |
+| `float(x)`      | integer that contains a decimal number | `x = 4.3`    |
+| `complex(re, im)` | contains a real and imaginary number   | `x = 2 + 6j` |
+
+*Additional Note*: <br>
+1. Integers in Python have **arbitrary precision** -- the amount of digits is limited only by the available memory of the host system. **Precision** is level of exactness, so `int` is less precise than a `float`.
+2. **Underscores** can be used as commas for big numbers to improve readability - example: `3_500_00.00`
 
 <br>
 
@@ -52,52 +56,40 @@ Python uses **implicit declarations** by using ***built-in types***. These data 
 
 <br>
 
-**Sequence**
+**Sequence**: mutuable; used to store collections of data
 
-| Type              | Defined                                | Example      |
-|-------------------|----------------------------------------|--------------|
-| `int(x)`          | integer                                | `x = 3`      |
-| `float(x)`        | integer that contains a decimal number | `x = 4.3`    |
-| `complex(re, im)` | contains a real and imaginary number   | `x = 2 + 6j` |
+| Type                       | Defined                                   | Example                      |
+|----------------------------|-------------------------------------------|------------------------------|
+| `list([iterable])`         | stores homogeneous data in a list `[]`    | `list('ab') = ['a','b']`     |
+| `tuple([iterable])`        | stores heterogeneous data in a tuple `()` | `tuple('ab') = ('a', 'b')`   |
+| `range(stop)`              | used for looping a specific # of times    | `range(5) = (0, 1, 2, 3, 4)` |
+| `range(start,stop[,step])` | used for looping a specific # of times    | `range(0,15,5) = (0, 5, 10)` |
 
-<br>
-
-**Mapping**
-
-| Type              | Defined                                | Example      |
-|-------------------|----------------------------------------|--------------|
-| `int(x)`          | integer                                | `x = 3`      |
-| `float(x)`        | integer that contains a decimal number | `x = 4.3`    |
-| `complex(re, im)` | contains a real and imaginary number   | `x = 2 + 6j` |
+*Additional Note*: the comma is what makes a `tuple`, not the parenthesis
 
 <br>
 
-**Classes**
+**Mapping**: maps hashable values to arbitary objects
 
-| Type              | Defined                                | Example      |
-|-------------------|----------------------------------------|--------------|
-| `int(x)`          | integer                                | `x = 3`      |
-| `float(x)`        | integer that contains a decimal number | `x = 4.3`    |
-| `complex(re, im)` | contains a real and imaginary number   | `x = 2 + 6j` |
+| Type                | Defined                       | Example                                                                                                        |
+|---------------------|-------------------------------|----------------------------------------------------------------------------------------------------------------|
+| `dict({key:value})` | key:value pairs within braces | `dict(one=1,` <br> `{'two' : 2},` <br> `('three', 3)` <br> `= {'one' : 1,` <br> `'two' : 2,` <br> `'three': 3}` |
 
 <br>
 
-**Instances**
+**Classes/Instances**: used to create objects; determines attributes and functionalities of an object
 
-| Type              | Defined                                | Example      |
-|-------------------|----------------------------------------|--------------|
-| `int(x)`          | integer                                | `x = 3`      |
-| `float(x)`        | integer that contains a decimal number | `x = 4.3`    |
-| `complex(re, im)` | contains a real and imaginary number   | `x = 2 + 6j` |
+| Type                       | Defined                             | Example          |
+|----------------------------|-------------------------------------|------------------|
+| `class Class_Name(object)` | user-defined blueprint of an object | `class Person()` |
+
+*Additional Note*: <br>
+**Instances** are attributes - *defining an object* - or methods - *functions* - in a class. This is an **OOP concept**.
+
+<br>
+
+**Exceptions**: reports an error condition "just like" the situation in which the interpreter raises the same exception
 
 <br>
 
-**Exceptions~~~~**
 
-| Type              | Defined                                | Example      |
-|-------------------|----------------------------------------|--------------|
-| `int(x)`          | integer                                | `x = 3`      |
-| `float(x)`        | integer that contains a decimal number | `x = 4.3`    |
-| `complex(re, im)` | contains a real and imaginary number   | `x = 2 + 6j` |
-
-<br>
