@@ -8,11 +8,22 @@
 
 This is frequently used in Selenium, so important to know. Its title is the literal meaning. Picture below.
 
-```
-def user_info(name, age, city):
-    '''This function prints name, age, and city from arguments provided to the function.'''
-
-    print('{} is {} years old, from {}.')
-```
-
 ![](img/ch3_8_1.png)
+<br>
+
+##### Keyword Arguments & `*args` `**kwargs`
+
+![](img/ch3_8_4.png)
+<br>
+
+##### Conditionals: `if`/`elif`/`else`
+
+![](img/ch3_8_5.png)
+<br>
+
+##### Loops & Loop Control
+
+![](img/ch3_8_6.png)
+<br>
+
+##### Lists & List Methods / Dictionaries & Dict Methods
