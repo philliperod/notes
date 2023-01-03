@@ -27,3 +27,28 @@ This is frequently used in Selenium, so important to know. Its title is the lite
 <br>
 
 ##### Lists & List Methods / Dictionaries & Dict Methods
+
+![](img/ch3_8_7.png)
+<br>
+
+##### Classes
+
+![](img/ch3_8_8.png)
+
+![](img/ch3_8_9.png)
+
+![](img/ch3_8_10.png)
+<br>
+
+##### Inheritances / Multiple Inheritances / Polymorphism
+
+![](img/ch3_8_11.png)
+
+![](img/ch3_8_13.png)
+
+![](img/ch3_8_14.png)
+
+![](img/ch3_8_15.png)
+
+![](img/ch3_8_16.png)
+<br>
