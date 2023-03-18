@@ -52,3 +52,4 @@
 1. Pytest parameters eases data-driven testing when test cases go through multiple inputs.
 2. Any Python object types for the parameter values.
 3. Since parameters are passed into the test case as a list, you can also store data in external files like CSVs or Excel and read them in when the test runs.
+4. Testing cloning repo (modified my local directories recently).
